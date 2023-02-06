@@ -1,12 +1,13 @@
 import Link from 'next/link';
-import { Header } from './Header';
+import { PropsWithChildren } from 'react';
 import { Footer } from './Footer';
+import { Header } from './Header';
 
 export const siteTitle = 'wheatfox';
 
 type Props = { home?: boolean };
 
-export const Layout: React.FC<Props> = ({ children, home }) => {
+export const Layout: React.FC<PropsWithChildren<Props>> = ({ children, home }) => {
   return (
     <>
       <Header />
