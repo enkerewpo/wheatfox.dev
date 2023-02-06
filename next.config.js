@@ -5,4 +5,7 @@ module.exports = {
     loader: 'akamai',
     path: '',
   },
+  experimental: {
+    newNextLinkBehavior: false,
+  },
 };

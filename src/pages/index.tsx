@@ -1,6 +1,6 @@
 import CSS from 'csstype';
 import type { InferGetServerSidePropsType, NextPage } from 'next';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import { AiOutlineCalendar } from 'react-icons/ai';
 import { MdUpdate } from 'react-icons/md';
