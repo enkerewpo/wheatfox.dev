@@ -1,6 +1,6 @@
 nextjs blog
 
-forked from https://github.com/szkkng/kengo-dev with custom modification
+forked from https://github.com/szkkng/kengo-dev with personal modification
 
 environment:
 1. nodejs 18.12.1
