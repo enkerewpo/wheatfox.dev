@@ -9,7 +9,7 @@ export const Comments = () => {
 
         const scriptElement = document.createElement('script');
         scriptElement.setAttribute('src', 'https://utteranc.es/client.js');
-        scriptElement.setAttribute('repo', 'szkkng/kengo-dev');
+        scriptElement.setAttribute('repo', 'enkerewpo/wheatfox.art');
         scriptElement.setAttribute('issue-term', 'pathname');
         scriptElement.setAttribute('label', 'comment');
         scriptElement.setAttribute('theme', 'github-light');
