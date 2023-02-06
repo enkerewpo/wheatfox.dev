@@ -25,7 +25,7 @@ const centerStyle: CSS.Properties = {
 export default function Home({ allPostsData }: InferGetServerSidePropsType<typeof getStaticProps>) {
   return (
     <Layout home>
-      <Seo pageTitle={siteTitle} />
+      <Seo pageTitle={"wheatfox's den"} />
       <br></br>
       <p style={centerStyle}>this new blog is currently under construction...</p>
       <div className='w-11/12 m-auto mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
