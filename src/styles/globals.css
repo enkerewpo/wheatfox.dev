@@ -122,7 +122,7 @@
   }
 
   pre > code {
-    @apply text-sm md:font-light bg-darkGrey bg-opacity-20 border border-darkGrey shadow p-5 !important;
+    @apply text-xs md:font-light bg-cream bg-opacity-20 border border-grey shadow p-5 !important;
   }
   pre {
     @apply block max-w-full sm:w-auto mb-6;
@@ -188,5 +188,5 @@
 }
 
 .rehype-code-title {
-  @apply inline-block bg-cream bg-opacity-50 border-grey text-matteBlack py-1 px-3 mt-1 text-xs;
+  @apply inline-block bg-cream border-grey text-matteBlack py-1 px-3 mt-1 text-xs;
 }

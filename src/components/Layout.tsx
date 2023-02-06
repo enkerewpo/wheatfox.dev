@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Header } from './Header';
+import { Footer } from './Footer';
 
 export const siteTitle = 'wheatfox';
 
@@ -19,6 +20,7 @@ export const Layout: React.FC<Props> = ({ children, home }) => {
           </div>
         )}
       </footer>
+      <Footer />
     </>
   );
 };

@@ -3,5 +3,11 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
+  },
+  "files.associations": {
+    "globals.css": "tailwindcss",
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   }
 }
